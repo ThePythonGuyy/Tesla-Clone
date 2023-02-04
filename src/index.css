@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes animateDown {
+  0%, 20%, 50%, 60%, 100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(6px);
+  }
+
+  60% {
+    transform: translateY(3px);
+  }
+}
